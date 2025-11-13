@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekly Schedule</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("https://i.pinimg.com/736x/c1/7a/35/c17a3516ecfde2357f795740929fb7e8.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .title-container {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 20px auto 10px;
+      font-size: 36px;
+      color: #d63384;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 15px 40px;
+      border-radius: 30px;
+      display: inline-block;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      border: 3px solid #f8a8d8;
+    }
+
+    .info-line {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: black;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.9); /* bubble background */
+      padding: 10px 20px;
+      border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .info-container {
+      text-align: center;
+    }
+
+    table {
+      width: 95%;
+      margin: auto;
+      border-collapse: collapse;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    th, td {
+      border: 2px solid #333;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    th {
+      background-color: #f8a8d8;
+      font-size: 18px;
+      color: black;
+      padding: 12px;
+    }
+    
+    td:first-child {
+      background-color: #fff176;
+      color: black;
+      font-weight: bold;
+      width: 120px;
+    }
+
+    td {
+      padding: 25px;
+      color: white;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+    }
+
+    td:empty {
+      background-color: #fff176; 
+    }
+
+    td:not(:first-child):hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 2;
+    }
+
+    td span {
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 5px 10px;
+      border-radius: 8px;
+    }
+
+    .break td {
+      font-style: italic;
+      color: black;
+      background-color: #fff9c4 !important;
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .research { background-image: url("https://studyinsweden.se/transformations/2016/05/research.jpeg-1920x.jpg"); }
+    .chem { background-image: url("https://png.pngtree.com/png-clipart/20230925/original/pngtree-golden-molecular-structure-on-white-background-cell-chemistry-background-vector-png-image_12758223.png"); }
+    .math { background-image: url("https://t3.ftcdn.net/jpg/04/83/90/18/360_F_483901821_46VsNR67uJC3xIKQN4aaxR6GtAZhx9G8.jpg"); }
+    .ict { background-image: url("https://static.vecteezy.com/system/resources/thumbnails/026/827/659/small/blue-white-abstract-technology-background-vector.jpg"); }
+    .sci { background-image: url("https://static.vecteezy.com/system/resources/thumbnails/013/717/509/small_2x/school-education-and-science-doodle-background-free-vector.jpg"); }
+    .fil { background-image: url("https://thumbs.dreamstime.com/b/philippines-map-gray-white-background-83893005.jpg"); }
+    .eng { background-image: url("https://e0.pxfuel.com/wallpapers/62/960/desktop-wallpaper-background-in-high-quality-english-word.jpg"); }
+    .esp { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-HalHi-gtgPLleAQsQzl6IhKEOnu1_DI9-Q&s"); }
+    .ap { background-image: url("https://www.shutterstock.com/image-vector/abstract-financial-graph-uptrend-line-260nw-1532271728.jpg"); }
+    .mapeh { background-image: url("https://previews.123rf.com/images/azzzya/azzzya1501/azzzya150100214/35995646-seamless-music-background.jpg"); }
+    .hg { background-image: url("https://static.vecteezy.com/system/resources/previews/003/286/410/non_2x/children-in-the-class-near-a-chalkboard-back-to-school-cartoon-pupil-vector.jpg"); }
+  </style>
+</head>
+<body>
+
+<div class="title-container">
+  <h2>🌸 Weekly Class Schedule 🌸</h2>
+</div>
+
+<!-- Bubble Info Line -->
+<div class="info-container">
+  <div class="info-line">
+    🏫 Section: STE 9 ASSERTIVENESS ─── ⋆⋅☆⋅⋆ ─── 📅 School Year 2025–2026 ─── ⋆⋅☆⋅⋆ ─── 👩‍🏫 Adviser: Rosalina Alonzo
+  </div>
+</div>
+
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td>9:30 – 11:00</td>
+    <td class="research"><span>📚 RESEARCH</span></td>
+    <td class="chem"><span>🧪 CON CHEM</span></td>
+    <td class="research"><span>🔎 RESEARCH</span></td>
+    <td class="chem"><span>⚗️ CON CHEM</span></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11:00 – 11:45</td>
+    <td class="math"><span>➗ MATH</span></td>
+    <td class="ict"><span>💻 ICT</span></td>
+    <td class="math"><span>📐 MATH</span></td>
+    <td class="ict"><span>🖥️ ICT</span></td>
+    <td class="hg"><span>🧑‍🏫 HG</span></td>
+  </tr>
+  <tr class="break">
+    <td>11:45 – 12:15</td>
+    <td colspan="5">☕ BREAK TIME ☕</td>
+  </tr>
+  <tr>
+    <td>12:15 – 1:00</td>
+    <td rowspan="2" class="math"><span>📊 MATH</span></td>
+    <td rowspan="3" class="sci"><span>🔬 SCIENCE</span></td> 
+    <td rowspan="2" class="math"><span>📏 MATH</span></td>
+    <td rowspan="3" class="ict"><span>⌨️ ICT</span></td>
+    <td class="math"><span>🧮 MATH</span></td>
+  </tr>
+  <tr>
+    <td>1:00 – 1:45</td>
+    <td rowspan="2" class="sci"><span>🌡️ SCIENCE</span></td>
+  </tr>
+  <tr>
+    <td>1:45 – 2:30</td>
+    <td class="sci"><span>🧬 SCIENCE</span></td>
+    <td class="sci"><span>🔭 SCIENCE</span></td>
+  </tr>
+  <tr class="break">
+    <td>2:30 – 3:00</td>
+    <td colspan="5">✨ AFTERNOON BREAK ✨</td>
+  </tr>
+  <tr>
+    <td>3:00 – 3:45</td>
+    <td class="fil"><span>🇵🇭 FILIPINO</span></td>
+    <td class="fil"><span>📖 FILIPINO</span></td>
+    <td class="fil"><span>📝 FILIPINO</span></td>
+    <td class="fil"><span>📚 FILIPINO</span></td>
+    <td class="fil"><span>✒️ FILIPINO</span></td>
+  </tr>
+  <tr>
+    <td>3:45 – 4:30</td>
+    <td class="esp"><span>🌍 ESP</span></td>
+    <td class="esp"><span>🤝 ESP</span></td>
+    <td class="esp"><span>🕊️ ESP</span></td>
+    <td class="esp"><span>❤️ ESP</span></td>
+    <td class="esp"><span>✨ ESP</span></td>
+  </tr>
+  <tr>
+    <td>4:30 – 5:15</td>
+    <td class="mapeh"><span>🎨 MAPEH</span></td>
+    <td class="mapeh"><span>🎶 MAPEH</span></td>
+    <td class="mapeh"><span>⚽ MAPEH</span></td>
+    <td class="mapeh"><span>🎭 MAPEH</span></td>
+    <td class="mapeh"><span>🩺 MAPEH</span></td>
+  </tr>
+  <tr>
+    <td>5:15 – 6:00</td>
+    <td class="ap"><span>💰 AP</span></td>
+    <td class="ap"><span>🐖 AP</span></td>
+    <td class="ap"><span>📉 AP</span></td>
+    <td class="ap"><span>📈 AP</span></td>
+    <td class="ap"><span>📊 AP</span></td>
+  </tr>
+  <tr>
+    <td>6:00 – 6:45</td>
+    <td class="eng"><span>✍️ ENGLISH</span></td>
+    <td class="eng"><span>📚 ENGLISH</span></td>
+    <td class="eng"><span>📝 ENGLISH</span></td>
+    <td class="eng"><span>📖 ENGLISH</span></td>
+    <td class="eng"><span>💬 ENGLISH</span></td>
+  </tr>
+</table>
+
+</body>
+</html>
