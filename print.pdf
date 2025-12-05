@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Printable Form</title>
+</head>
+<body align="center">
+
+<h2>Sta. Elena High School</h2>
+<h3>Student Registration Form</h3>
+
+<table border="1" cellspacing="0" cellpadding="5" align="center">
+    <tr>
+        <td>Name:</td>
+        <td>_________________________</td>
+    </tr>
+    <tr>
+        <td>Grade Level:</td>
+        <td>__________</td>
+    </tr>
+    <tr>
+        <td>Section:</td>
+        <td>__________</td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td>_________________________</td>
+    </tr>
+    <tr>
+        <td>Birthday:</td>
+        <td>__/__/____</td>
+    </tr>
+    <tr>
+        <td>Contact No.:</td>
+        <td>_________________________</td>
+    </tr>
+    <tr>
+        <td>E-mail:</td>
+        <td>_________________________</td>
+    </tr>
+    <tr>
+        <td>Gender:</td>
+        <td>__________</td>
+    </tr>
+    <tr>
+        <td>Other club involvement:</td>
+        <td>_________________________</td>
+    </tr>
+    <tr>
+        <td>Computer skills:</td>
+        <td>_________________________</td>
+    </tr>
+</table>
+
+</body>
+</html>
