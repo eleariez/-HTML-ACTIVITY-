@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  background: linear-gradient(rgba(10,40,25,0.7), rgba(10,40,25,0.7)), url('sampaguita-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f5fff8;
+}
+
+nav {
+  background: rgba(12, 55, 35, 0.85);
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+nav a {
+  color: #e6fff2;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #9dffb0;
+  text-shadow: 0 0 8px rgba(157,255,176,0.8);
+}
+
+.container {
+  background: rgba(8, 35, 22, 0.75);
+  margin: 50px auto;
+  padding: 40px;
+  max-width: 900px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.85);
+}
+
+h1, h2 {
+  text-shadow: 0 0 12px rgba(157,255,176,0.9), 0 0 25px rgba(157,255,176,0.6);
+  color: #caffdd;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 25px 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+button {
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  background: linear-gradient(135deg, #2f7f55, #1f5f3f);
+  color: #eafff2;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #6bff9e, #3cbf7a);
+  color: #05331e;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(107,255,158,0.6);
+}
+body.tale-bg {
+  background-image: url("your-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#beginning {
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  position: relative;

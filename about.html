@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Behind the Legend</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+  Container enhancement 
+    .legend-box {
+      background-image: url("village.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 30px;
+      padding: 60px 40px;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+      position: relative;
+      overflow: hidden;
+    }
+
+ Dark overlay for readability 
+    .legend-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 35, 25, 0.75);
+      z-index: 0;
+    }
+
+    .legend-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .reflection p {
+      text-shadow: 0 0 8px rgba(255,255,255,0.35);
+      max-width: 780px;
+      margin: 22px auto;
+      font-size: 1.1em;
+      line-height: 1.9;
+      text-align: center;
+      animation: fadeUp 1.2s ease both;
+    }
+
+    .reflection p:nth-child(odd) {
+      animation-delay: 0.3s;
+    }
+
+    .divider {
+      width: 140px;
+      height: 3px;
+      margin: 25px auto 35px;
+      background: linear-gradient(to right, transparent, #9dffb0, transparent);
+      box-shadow: 0 0 12px #9dffb0;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="storypage.html">The Tale</a>
+  <a href="about.html">Behind the Legend</a>
+  <a href="profile.html">Meet the Author</a>
+</nav>
+
+<div class="container">
+  <div class="legend-box">
+    <div class="legend-content">
+
+      <h2 style="
+        text-align:center;
+        color:#caffdd;
+        text-shadow: 0 0 18px rgba(157,255,176,0.9);
+        letter-spacing:2px;
+        margin-bottom: 10px;
+      ">
+        Behind the Legend
+      </h2>
+
+      <div class="divider"></div>
+
+      <div class="reflection">
+        <p>
+          The legend of the Sampaguita is a well-known Filipino folklore that explains the origin of the country’s national flower. It is believed that the flower was born from a woman’s pure and undying love.
+        </p>
+        <p>
+          According to the story, her sorrow and devotion were transformed by nature into something beautiful, leaving behind a flower with a gentle fragrance and pure white petals.
+        </p>
+        <p>
+          In Filipino culture, the Sampaguita represents loyalty, humility, and faithfulness—values that are deeply respected in relationships and family life.
+        </p>
+        <p>
+          This legend shows how Filipinos place great importance on promises, especially those made out of love and sincerity.
+        </p>
+        <p>
+          While creating this story, I realized that pain and sacrifice can lead to something meaningful and lasting.
+        </p>
+        <p>
+          The Sampaguita reminds us that true love and devotion never fade, even with time, distance, or loss.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
