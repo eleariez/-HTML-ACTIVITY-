@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Tale</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .story-section {
+      display: none;
+      text-align: center;
+      line-height: 1.9;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .story-section p {
+      text-shadow: 0 0 6px rgba(255,255,255,0.35);
+      max-width: 750px;
+      margin: 20px auto;
+      font-size: 1.1em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <script>
+    function showStory(id) {
+      document.querySelectorAll('.story-section')
+        .forEach(s => s.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</head>
+
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="storypage.html">The Tale</a>
+  <a href="about.html">Behind the Legend</a>
+  <a href="profile.html">Meet the Author</a>
+</nav>
+
+<div class="container">
+  <h2>The Tale</h2>
+ <center>
+  <p style="
+    font-style: italic;
+    color: #ffd700;
+    opacity: 0.95;
+    text-shadow: 0 0 8px rgba(255,215,0,0.8),
+                 0 0 15px rgba(255,215,0,0.6);
+    letter-spacing: 1px;
+  ">
+    An enchanted story of promise, love, and eternal devotion
+  </p>
+</center>
+
+  <div style="text-align:center; margin-bottom:25px;">
+    <button onclick="showStory('beginning')">Beginning</button>
+    <button onclick="showStory('middle')">Middle</button>
+    <button onclick="showStory('ending')">Ending</button>
+  </div>
+
+  <div id="beginning" class="story-section">
+    <p>
+      Long ago, in a peaceful village nestled between emerald mountains and a winding river, lived a gentle maiden named Sampaguita. She was admired not only for her beauty but for her kindness, patience, and unwavering faith.
+    </p>
+    <p>
+      Sampaguita was deeply in love with a brave young warrior who protected their land from invaders. Before leaving for battle, he promised that no matter how long the war lasted, he would return to her.
+    </p>
+    <p>
+      Each morning, she waited by the river where they last parted, believing that love and destiny would guide him safely back home.
+    </p>
+  </div>
+
+
+  <div id="middle" class="story-section">
+    <p>
+      Days slowly turned into months, and months into years, yet the warrior did not return. Rumors spread through the village, but Sampaguita refused to let doubt poison her heart.
+    </p>
+    <p>
+      Through storms and scorching heat, she continued her daily vigil by the river, praying for his safety. Her devotion never wavered, even as loneliness weakened her body.
+    </p>
+    <p>
+      One fateful night, as rain poured endlessly, Sampaguita whispered her final prayer and closed her eyes, still clinging to the promise that love never breaks.
+    </p>
+  </div>
+
+  <div id="ending" class="story-section">
+    <p>
+      At dawn, the villagers searched for Sampaguita but could not find her. In her place bloomed small white flowers, filling the air with a sweet fragrance.
+    </p>
+    <p>
+      The elders said the flowers carried her final words:
+      <span style="color:#9dffb0; font-weight:bold; text-shadow:0 0 10px #9dffb0;">
+        “Sumpa kita”
+      </span>
+      —a sacred promise.
+    </p>
+    <p>
+      From that day on, the Sampaguita flower became a symbol of purity, loyalty, and love that never fades.
+    </p>
+  </div>
+</div>
+</body>
+</html>
