@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 2 - Frames & Iframes 🖼️</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9ecf, #ff66b2);
+            background-attachment: fixed;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #ff4da6, #ff99cc);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            font-size: 36px;
+            font-weight: 700;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        section {
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(8px);
+            margin: 40px auto;
+            padding: 40px;
+            width: 85%;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(255, 0, 102, 0.15);
+        }
+        h2 { color: #C2185B; margin-top: 30px; }
+        h3 { color: #E75480; margin-top: 25px; }
+        p, ul, ol { font-size: 16px; line-height: 1.8; }
+        pre { background: #ffe6f0; padding: 15px; border-radius: 15px; overflow-x:auto; }
+        iframe { border-radius: 15px; margin-top: 20px; }
+        .activity-box {
+            background: linear-gradient(145deg, #fff0f5, #ffe6f0);
+            padding: 25px;
+            border-radius: 20px;
+            margin-top: 30px;
+            box-shadow: 0 8px 15px rgba(255, 105, 180, 0.2);
+        }
+        footer {
+            background: #ff4da6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-weight: 600;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            box-shadow: 0 -5px 15px rgba(255,0,102,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>Module 2: Frames & Iframes 🖼️</header>
+
+<section>
+<h2>Introduction to Iframes</h2>
+<p>
+Iframes allow you to embed other webpages, videos, documents, or interactive content directly 
+within your own web page. This is useful for showing external content without redirecting users.
+</p>
+
+<h2>Basic Syntax</h2>
+<pre>&lt;iframe src="URL"&gt;&lt;/iframe&gt;</pre>
+
+<h3>Common Attributes:</h3>
+<ul>
+<li><b>src</b> – Link to the page or video you want to embed</li>
+<li><b>width</b> – Sets the width of the iframe</li>
+<li><b>height</b> – Sets the height of the iframe</li>
+<li><b>allowfullscreen</b> – Enables fullscreen mode</li>
+<li><b>title</b> – Provides a description for accessibility</li>
+</ul>
+
+<h2>Example: Embedded YouTube Video</h2>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k?si=pWZWy7NnEXxhY41b" allowfullscreen></iframe>
+
+<div class="activity-box">
+<h2>Activity 📝</h2>
+<p>Embed a YouTube tutorial about HTML inside your page. Experiment with width and height attributes 
+and try adding <code>allowfullscreen</code> for full-screen viewing.</p>
+</div>
+
+<h2>Reference 📚</h2>
+<center>
+<p>
+Visit: 
+<a href="https://www.w3schools.com/html/html_iframe.asp" target="_blank">
+W3Schools - HTML Iframes
+</a>
+</p>
+</section>
+</center>
+<footer>
+💻 CodeBloom & Glow Academy 💐 | All rights reserved © 2026
+</footer>
+
+</body>
+</html>

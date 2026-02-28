@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 5 - CSS Selectors 💡</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family:'Poppins',sans-serif; margin:0; background:linear-gradient(135deg,#ff9ecf,#ff66b2); background-attachment:fixed; color:#333; }
+        header { background:linear-gradient(to right,#ff4da6,#ff99cc); color:white; text-align:center; padding:40px; font-size:36px; font-weight:700; box-shadow:0 8px 20px rgba(0,0,0,0.2); }
+        section { background: rgba(255,255,255,0.9); backdrop-filter:blur(8px); margin:40px auto; padding:40px; width:85%; border-radius:25px; box-shadow:0 15px 35px rgba(255,0,102,0.15); }
+        h2 { color:#C2185B; margin-top:30px; }
+        h3 { color:#E75480; margin-top:25px; }
+        p, ul, ol { font-size:16px; line-height:1.8; }
+        pre { background:#ffe6f0; padding:15px; border-radius:15px; overflow-x:auto; }
+        .activity-box { background: linear-gradient(145deg,#fff0f5,#ffe6f0); padding:25px; border-radius:20px; margin-top:30px; box-shadow:0 8px 15px rgba(255,105,180,0.2); }
+        .activity-box:hover { transform:translateY(-5px); box-shadow:0 12px 25px rgba(255,0,102,0.3); }
+        footer { background:#ff4da6; color:white; text-align:center; padding:20px; margin-top:40px; font-weight:600; }
+        .pinkText { color: deeppink; }
+        .box { background: #ffe6f0; padding: 15px; border-radius: 15px; margin:10px 0; }
+    </style>
+</head>
+<body>
+
+<header>Module 5: CSS Selectors, Div, Span, Class & ID 💡</header>
+
+<section>
+<h2>Introduction to CSS Selectors</h2>
+<center>
+<p>
+Selectors tell CSS which HTML elements to style. You can target elements by tag, class, ID, or even complex combinations.
+</p>
+</center>
+<h2>1. Element Selector</h2>
+<pre>
+p { color: hotpink; }
+</pre>
+
+<h2>2. Class Selector</h2>
+<pre>
+.pinkText { color: deeppink; }
+</pre>
+<center>
+For example: <p class="pinkText">This text uses a class selector.</p>
+</center>
+<h2>3. ID Selector</h2>
+<pre>
+#mainTitle { font-size: 40px; }
+</pre>
+
+<h2>4. Div and Span</h2>
+<ul>
+<li><b>&lt;div&gt;</b> – Block-level container</li>
+<li><b>&lt;span&gt;</b> – Inline container</li>
+</ul>
+<div class="box">This is inside a div</div>
+<p>This is a <span style="color:pink;">span element</span>.</p>
+
+<h2>5. Styling Links</h2>
+<pre>
+a { color: purple; }
+a:hover { color: pink; }
+</pre>
+
+<div class="activity-box">
+<h2>Activity 📝</h2>
+<p>Create one ID style, one class style, a div container, and a styled link with hover effect.</p>
+</div>
+
+<h2>Reference 📚</h2>
+<center>
+<p>
+Visit: 
+<a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">
+W3Schools - CSS Selectors</a>
+</p>
+</center>
+</section>
+
+<footer>💻 CodeBloom & Glow Academy 💐 | All rights reserved © 2026</footer>
+</body>
+</html>
